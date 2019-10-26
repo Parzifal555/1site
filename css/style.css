@@ -38,13 +38,13 @@ header{
     padding: 0;
     height: 100vh;
     width: 100%;
-    background-image: url(/site1-master/img/header\ bg.png);
+    background-image: url(/img/bg_header.png);
 }
 .about{
     margin-top: 0 ;
     height: 100%;
     height: 100vh;
-    background-image: url(/site1-master/img/background.png);
+    background-image: url(/img/bg_about.png);
     padding-top: 100px;
 }
 .text_about{
@@ -62,24 +62,35 @@ header{
     height: 100%;
     padding-top: 100px;
     height: 100vh;
-    background-image: url(/site1-master/img/bg_partfolio.png);
+    background-image: url(/img/bg_portfolio.png);
 }
 .botton-portfolio{
 
 }
 .donate{
-    background-image: url(/site1-master/img/bg_content.png);
+    background-image: url(/img/bg_content.png);
     margin-top: 0 ;
     height: 100%;
     padding-top: 100px;
     height: 325px;
+}
+.donat{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
 }
 .contact{
     margin-top: 0 ;
     height: 100%;
     padding-top: 100px;
     height: 100vh;
-    background-image: url(/site1-master/img/bg_contact.png);
+    background-image: url(/img/bg_contact.png);
+}
+.botton-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
 }
 .email{
     border-radius: 5px;
@@ -89,6 +100,11 @@ footer{
     margin-top: 0 ;
     height: 100%;
     padding-top: 100px;
-    background-image:url(/site1-master/img/BG.png);
+    background-image:url(/img/BG.png);
     text-align: center;
+}
+.text_footer{
+    display:flex;
+    align-content: center;
+    justify-content: center;
 }
