@@ -24,10 +24,23 @@ margin-top: 20px;
 .text1{
  font-size: 25px;
 }
-.botton{
-    display: flex;
-    flex-direction: row-reverse;
+.btn_1{
+    position: absolute;
+    right: 490px;
     margin-top: 150px;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    align-content: center;
+}
+.btn1{
+    width: 200px;
+    height: 70px;
+    border: 3px solid white;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: white;
+    
 }
 .container{
     
@@ -95,11 +108,16 @@ header{
     padding-top: 100px;
     height: 100vh;
     background-image: url(/img/bg_contact.png);
+    display: flex;
+    align-content: center;
 }
 .botton-contact{
     display: flex;
     justify-content: space-evenly;
     align-items:center;
+    width: 330px;
+    margin: 0 auto
+    
 }
 .email{
     border-radius: 5px;
@@ -116,4 +134,7 @@ footer{
     display:flex;
     align-content: center;
     justify-content: center;
+}
+.contact-content{
+
 }
