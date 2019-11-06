@@ -19,10 +19,12 @@ margin-top: 20px;
 }
 .name{
     font-size: 30px;
+    color: white;
 }
 
 .text1{
  font-size: 25px;
+ color: white;
 }
 .btn_1{
     position: absolute;
@@ -79,6 +81,24 @@ header{
     padding: 17px;
     border-left: 7px blue solid;
 }
+.btn_2{
+    position: absolute;
+    right: 490px;
+    margin-top: 150px;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    justify-content:flex-start;
+}
+.btn2{
+    width: 200px;
+    height: 70px;
+    border: 3px solid #14af8f;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: #14af8f;
+    
+}
 .portfolio{
     margin-top: 0 ;
     padding-top: 100px;
@@ -88,6 +108,24 @@ header{
 }
 .botton-portfolio{
 
+}
+.btn_3{
+    position: absolute;
+    right: 490px;
+    margin-top: 150px;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    justify-content:flex-start;
+}
+.btn3{
+    width: 200px;
+    height: 70px;
+    border: 3px solid #ea4c89;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: #ea4c89;
+    
 }
 .donate{
     background-image: url(/img/bg_content.png);
@@ -101,6 +139,24 @@ header{
     justify-content: center;
     align-items:center;
     flex-direction:column;
+}
+.btn_4{
+    position: absolute;
+    right: 490px;
+    margin-top: 150px;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    justify-content:center;
+}
+.btn4{
+    width: 200px;
+    height: 70px;
+    border: 3px solid white;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: white;
+    
 }
 .contact{
     margin-top: 0 ;
