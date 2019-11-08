@@ -1,0 +1,265 @@
+
+/*стили ты все перемешал, то есть не понятно что где как, должно быть красиво и понятно тебе*/
+
+/*Ниже пример как нужно правильно оформлять, отступы должны быть првильные*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*************Шапка****************/
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: white;
+    margin: 0;
+    padding-top: 40px;
+}
+
+/*кстати шрифт находишь на googlefonts*/
+
+h2 {
+     font-family: 'Tajawal', sans-serif;
+     font-weight: 400;
+     color: #545454;
+}
+
+.nav {
+    background-color: #63c2e7;
+    max-height: 650px;
+}
+
+.container_header {
+  background: url(../img/iphone5.png) no-repeat left 80px top 380px;
+  max-width: 960px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.text_header {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.text1 {
+   font-size: 35px;
+   color: white;
+   font-family: 'Tajawal', sans-serif;
+}
+
+.btn_1 {
+    display: flex;
+    width: 170px;
+    height: 60px; 
+    justify-content: flex-end;
+    float: right;
+}
+
+.btn1 {
+    width: 170px;
+    height: 60px;
+    border: 3px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: white;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn1 img {
+    width: 20px;
+}
+
+
+
+/*************Контент****************/
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.about {
+    margin-top: 0;
+    background-color: #f4f4f4;
+    height: 650px;
+    background: url(../img/ipad_flat.png) no-repeat right 0 bottom 0;
+}
+
+.name_about {
+    font-size: 40px;
+}
+
+
+/*тут ниже у тебя ошибка, зачем два класса отдельно?*/
+.text-about {
+    font-size: 16px;
+     font-family: 'Tajawal', sans-serif;
+    color: #7e7e7e;
+}
+
+.text_about {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 76px;
+}
+
+.border-txt {
+    border-left: 7px #4eacdd solid;
+    font-family: 'Tajawal', sans-serif;
+    height: 68px;
+    padding-left: 18px;
+    font-style: italic;
+     color: #7e7e7e;
+}
+
+.btn_2 {
+    display: flex;
+    width: 170px;
+    height: 60px;
+    justify-content: flex-start;
+}
+
+.btn2 {
+    width: 170px;
+    height: 53px;
+    border: 3px solid #14af8f;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #14af8f;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.portfolio {
+    margin-top: 0 ;
+    padding-top: 100px;
+    height: 100vh;
+    background: url(/img/bg_portfolio.png) no-repeat;
+    background-size: 100%;
+}
+
+.botton-portfolio {
+
+}
+
+.btn_3 {
+    position: absolute;
+    right: 490px;
+    margin-top: 150px;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    justify-content:flex-start;
+}
+
+.btn3 {
+    width: 200px;
+    height: 70px;
+    border: 3px solid #ea4c89;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: #ea4c89;
+    
+}
+.donate {
+    background-image: url(/img/bg_content.png);
+    margin-top: 0 ;
+    height: 100%;
+    padding-top: 100px;
+    height: 325px;
+}
+.donat {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.btn_4 {
+    position: absolute;
+    right: 490px;
+    margin-top: 150px;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    justify-content:center;
+}
+.btn4{
+    width: 200px;
+    height: 70px;
+    border: 3px solid white;
+    background-color:rgba(255, 255, 255, 0) ;
+    text-align: center;
+    color: white;
+    
+}
+.contact{
+    margin-top: 0 ;
+    height: 100%;
+    padding-top: 100px;
+    height: 100vh;
+    background-image: url(/img/bg_contact.png);
+    display: flex;
+    align-content: center;
+}
+.botton-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 330px;
+    margin: 0 auto
+    
+}
+.email{
+    border-radius: 5px;
+    
+}
+footer{
+    margin-top: 0 ;
+    height: 100%;
+    padding-top: 100px;
+    background-image:url(/img/BG.png);
+    text-align: center;
+}
+.text_footer{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.contact-content{
+
+}
