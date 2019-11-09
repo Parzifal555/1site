@@ -6,6 +6,18 @@ body{
     display: flex;
     justify-content: space-between;
 }
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: white;
+    margin: 0;
+    padding-top: 40px;
+}
+h2 {
+     font-family: 'Tajawal', sans-serif;
+     font-weight: 400;
+     color: #545454;
+}
 .logo{
   
 }
@@ -23,25 +35,33 @@ margin-top: 20px;
 }
 
 .text1{
- font-size: 25px;
- color: white;
+    font-size: 35px;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
 }
 .btn_1{
-    position: absolute;
-    right: 490px;
-    margin-top: 150px;
     display: flex;
     width: 170px;
-    height: 60px;
-    align-content: center;
+    height: 60px; 
+    justify-content: flex-end;
+    float: right;
 }
 .btn1{
-    width: 200px;
-    height: 70px;
+    width: 170px;
+    height: 60px;
     border: 3px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
     background-color:rgba(255, 255, 255, 0) ;
     text-align: center;
     color: white;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .container{
@@ -58,6 +78,11 @@ header{
     background :url(/img/bg_header.png) no-repeat ;
     background-size: cover;
 }
+.container_about {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
 .about{
     margin-top: 0 ;
     height: 100vh;
@@ -70,33 +95,44 @@ header{
 }
 .text-about{
     font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+   color: #7e7e7e;
 }
 .text_about{
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-bottom: 76px;
 }
 .border-txt{
-    padding: 17px;
-    border-left: 7px blue solid;
+    border-left: 7px #4eacdd solid;
+    font-family: 'Tajawal', sans-serif;
+    height: 68px;
+    padding-left: 18px;
+    font-style: italic;
+     color: #7e7e7e;
 }
 .btn_2{
-    position: absolute;
-    right: 490px;
-    margin-top: 150px;
     display: flex;
     width: 170px;
     height: 60px;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 .btn2{
-    width: 200px;
-    height: 70px;
+    width: 170px;
+    height: 53px;
     border: 3px solid #14af8f;
     background-color:rgba(255, 255, 255, 0) ;
     text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
     color: #14af8f;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
     
 }
 .portfolio{
