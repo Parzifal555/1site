@@ -2,10 +2,9 @@ body{
     margin: 0;
     padding: 0;
 }
-.main_header{
-    display: flex;
-    justify-content: space-between;
-}
+
+/*************Шапка****************/
+
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
@@ -13,40 +12,57 @@ h1 {
     margin: 0;
     padding-top: 40px;
 }
+
+/*шрифты на googlefonts*/
+
 h2 {
      font-family: 'Tajawal', sans-serif;
      font-weight: 400;
      color: #545454;
 }
-.logo{
-  
+
+.nav {
+    background-color: #63c2e7;
+    max-height: 650px;
 }
-.menu{
-margin-top: 20px;
+
+.container_header {
+  background: url(../img/iphone5.png) no-repeat left 80px top 380px;
+  max-width: 960px;
+  height: 650px;
+  margin: 0 auto;
 }
-.text_header{
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.text_header {
     display: flex;
     flex-direction: column;
     text-align: right;
 }
-.name{
-    font-size: 30px;
-    color: white;
+
+.text1 {
+   font-size: 35px;
+   color: white;
+   font-family: 'Tajawal', sans-serif;
 }
 
-.text1{
-    font-size: 35px;
-    color: white;
-    font-family: 'Tajawal', sans-serif;
-}
-.btn_1{
+.btn_1 {
     display: flex;
     width: 170px;
     height: 60px; 
     justify-content: flex-end;
     float: right;
 }
-.btn1{
+
+.btn1 {
     width: 170px;
     height: 60px;
     border: 3px solid white;
@@ -62,49 +78,50 @@ margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-}
-.container{
-    
-    width: 940px;
-    margin: 0 auto;
 }
 
-header{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-    background :url(/img/bg_header.png) no-repeat ;
-    background-size: cover;
+.btn1 img {
+    width: 20px;
 }
-.container_about {
+
+
+
+/*************Контент****************/
+
+/*************About******************/
+.container {
     max-width: 960px;
     margin: 0 auto;
     padding-top: 130px;
 }
-.about{
-    margin-top: 0 ;
-    height: 100vh;
-    background: url(/img/bg_about.png) no-repeat;
-    padding-top: 100px;
-    background-size: 100%;
+
+.about {
+    margin-top: 0;
+    background-color: #f4f4f4;
+    height: 650px;
+    background: url(../img/ipad_flat.png) no-repeat right 0 bottom 0;
 }
-.name_about{
+
+.name_about {
     font-size: 40px;
 }
-.text-about{
+
+
+
+.text-about {
     font-size: 16px;
-    font-family: 'Tajawal', sans-serif;
-   color: #7e7e7e;
+     font-family: 'Tajawal', sans-serif;
+    color: #7e7e7e;
 }
-.text_about{
+
+.text_about {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 76px;
 }
-.border-txt{
+
+.border-txt {
     border-left: 7px #4eacdd solid;
     font-family: 'Tajawal', sans-serif;
     height: 68px;
@@ -112,13 +129,15 @@ header{
     font-style: italic;
      color: #7e7e7e;
 }
-.btn_2{
+
+.btn_2 {
     display: flex;
     width: 170px;
     height: 60px;
     justify-content: flex-start;
 }
-.btn2{
+
+.btn2 {
     width: 170px;
     height: 53px;
     border: 3px solid #14af8f;
@@ -133,28 +152,53 @@ header{
     display: -o-flex;
     display: flex;
     justify-content: space-between;
-    
 }
-.portfolio{
+
+
+
+/*************Portfolio******************/
+.nav_2 {
+    background-color: #ffffff;
+    max-height: 650px;
+}
+.container_prf{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+.text-portfolio{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.name_portfolio{
+    font-size: 40px;
+}
+.text_prf{
+    font-size: 16px;
+}
+.portfolio {
     margin-top: 0 ;
     padding-top: 100px;
     height: 100vh;
     background: url(/img/bg_portfolio.png) no-repeat;
     background-size: 100%;
 }
-.botton-portfolio{
+
+.botton-portfolio {
 
 }
-.btn_3{
-    position: absolute;
-    right: 490px;
-    margin-top: 150px;
+
+.btn_3 {
     display: flex;
-    width: 170px;
-    height: 60px;
-    justify-content:flex-start;
+    width: 225px;
+    height: 60px; 
+    justify-content: flex-end;
+    float: right;
 }
-.btn3{
+
+.btn3 {
     width: 200px;
     height: 70px;
     border: 3px solid #ea4c89;
@@ -163,20 +207,21 @@ header{
     color: #ea4c89;
     
 }
-.donate{
+/*************Donate******************/
+.donate {
     background-image: url(/img/bg_content.png);
     margin-top: 0 ;
     height: 100%;
     padding-top: 100px;
     height: 325px;
 }
-.donat{
+.donat {
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction:column;
 }
-.btn_4{
+.btn_4 {
     position: absolute;
     right: 490px;
     margin-top: 150px;
