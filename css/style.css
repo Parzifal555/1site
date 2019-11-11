@@ -27,7 +27,7 @@ h2 {
 }
 
 .container_header {
-  background: url(../img/iphone5.png) no-repeat left 80px top 380px;
+  background: url(../img/iphone5.png) no-repeat left 20px top 380px;
   max-width: 960px;
   height: 650px;
   margin: 0 auto;
@@ -157,19 +157,20 @@ h2 {
 
 
 /*************Portfolio******************/
-.nav_2 {
+.nav_ptf {
     background-color: #ffffff;
     max-height: 650px;
 }
-.container_prf{
+.portfolio {
+    background: url(../img/devices.png) no-repeat left 0px top 280px;
+}
+.container_ptf{       
     max-width: 960px;
+    height: 650px;
     margin: 0 auto;
-    padding-top: 130px;
 }
 .text-portfolio{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+    margin-left: 620px;
 
 }
 .name_portfolio{
@@ -178,24 +179,18 @@ h2 {
 .text_prf{
     font-size: 16px;
 }
-.portfolio {
-    margin-top: 0 ;
-    padding-top: 100px;
-    height: 100vh;
-    background: url(/img/bg_portfolio.png) no-repeat;
-    background-size: 100%;
-}
+
 
 .botton-portfolio {
-
+    display: flex;
+ justify-content: flex-end;
+ margin-right: 115px;
 }
 
 .btn_3 {
     display: flex;
     width: 225px;
     height: 60px; 
-    justify-content: flex-end;
-    float: right;
 }
 
 .btn3 {
@@ -205,7 +200,10 @@ h2 {
     background-color:rgba(255, 255, 255, 0) ;
     text-align: center;
     color: #ea4c89;
-    
+   display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex; 
 }
 /*************Donate******************/
 .donate {
