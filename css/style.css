@@ -171,13 +171,15 @@ h2 {
 }
 .text-portfolio{
     margin-left: 620px;
-
+    
 }
 .name_portfolio{
     font-size: 40px;
+    margin-top: 130px;
 }
 .text_prf{
     font-size: 16px;
+    margin-top: 150px;
 }
 
 
@@ -191,19 +193,24 @@ h2 {
     display: flex;
     width: 225px;
     height: 60px; 
+    margin-top: 140px;
 }
 
 .btn3 {
-    width: 200px;
-    height: 70px;
+    width: 225px;
+    height: 60px;
     border: 3px solid #ea4c89;
     background-color:rgba(255, 255, 255, 0) ;
     text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
     color: #ea4c89;
-   display: -webkit-flex;
+    display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
-    display: -o-flex; 
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
 }
 /*************Donate******************/
 .donate {
