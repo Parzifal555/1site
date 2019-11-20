@@ -5,7 +5,6 @@
 	<title>Meet Perth</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Tajawal:400,500,700,800&display=swap&subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- Подключаешь шрифты через link (всегда) -->
@@ -52,9 +51,9 @@
 			</div>  
 		</div>
     </div>
-    <div class="nav_ptf">
+    <div class="nav_2">
 	<div class="portfolio">
-		<div class="container_ptf">
+		<div class="container_prf">
             <div class="text-portfolio">
 			    <h3 class="name_portfolio" >Get a Dog Up Ya’</h3>
 			    <p class="text_prf" >She'll be right paddock how lets throw a ciggies. <br>
@@ -65,19 +64,19 @@
             </div>
 			<div class="botton-portfolio">
 				<div class="btn_3">
-					<button class="btn3">VIEW ON DREABLE<i class="fab fa-dribbble"></i></button>   
+					<button class="btn3">VIEW ON DREABLE<i class="fas fa-basketball-ball"></i></button>   
 				</div>  
 			</div>
 		</div>
     </div>
 </div>
 	<div class="donate">
-		<div class="container_donate">
+		<div class="container">
 			<div class="donat">
-				<h3>Like What You See?</h3>
+				<h2 class="name_donat">Like What You See?</h2>
 				<div class="botton-donate">
 					<div class="btn_4">
-						<button class="btn4">SAY HELLO<i class="fas fa-beer"></i></button>   
+						<button class="btn4">BUY ME A <b>BEER</b>?<i class="fas fa-beer"></i></button>   
 					</div>  
 				</div>
 			</div>
@@ -92,18 +91,23 @@
 					<a href="https://twitter.com/"><img src="img/twitter.png"></a>
 					<a href="https://mail.ru/"><img src="img/mail.png"></a>
 				</div>
-				<p>Newsletter Subscription</p>
-				<div >
-					<input type="text" placeholder="Enter Email"  class="email">
-				</div>
+				<div class="newsletter_subscription"> 	
+					<h3>Newsletter Subscription</h3>
+					<div class="search_box"> 		    		 	
+					  <form>
+						 <input type="text" class="textbox" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
+						 <input type="submit" value="">
+					  </form>
+				  </div>
+				   <div class="clear"></div>   
+			   </div>
 			</div>
 		</div>
 	</div>
 	<footer>
-		<div class="container"> 
+		<div class="container" class="text_footer"> 
 			<p>© 2013 <span style="color: blue;">Perth</span> Breeding pixels since the naughties.</p>
 		</div>   
 	</footer>
 </body>
 </html>
-<!--https://fontawesome.com/ для иконок-->

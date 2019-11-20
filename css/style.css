@@ -22,12 +22,12 @@ h2 {
 }
 
 .nav {
-    background-color: #63c2e7;
+    background: url(../img/heder_bg.png) no-repeat center top / cover; 
     max-height: 650px;
 }
 
 .container_header {
-  background: url(../img/iphone5.png) no-repeat left 20px top 380px;
+  background: url(../img/iphone5.png) no-repeat left 80px top 380px;
   max-width: 960px;
   height: 650px;
   margin: 0 auto;
@@ -157,62 +157,55 @@ h2 {
 
 
 /*************Portfolio******************/
-
-.nav_ptf {
+.nav_2 {
     background-color: #ffffff;
     max-height: 650px;
 }
-.portfolio {
-    background: url(../img/devices.png) no-repeat left 0px top 280px;
-}
-.container_ptf{       
+.container_prf{
     max-width: 960px;
-    height: 650px;
     margin: 0 auto;
+    padding-top: 130px;
 }
 .text-portfolio{
-    margin-left: 620px;
-    
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
 }
 .name_portfolio{
     font-size: 40px;
-    margin-top: 130px;
 }
 .text_prf{
-    font-family: 'Slabo 27px', serif;
     font-size: 16px;
-    margin-top: 150px;
+}
+.portfolio {
+    margin-top: 0 ;
+    padding-top: 100px;
+    height: 100vh;
+    background: url(/img/bg_portfolio.png) no-repeat;
+    background-size: 100%;
 }
 
-
 .botton-portfolio {
-    display: flex;
- justify-content: flex-end;
- margin-right: 115px;
+
 }
 
 .btn_3 {
     display: flex;
     width: 225px;
     height: 60px; 
-    margin-top: 140px;
+    justify-content: flex-end;
+    float: right;
 }
 
 .btn3 {
-    width: 225px;
-    height: 60px;
+    width: 200px;
+    height: 70px;
     border: 3px solid #ea4c89;
     background-color:rgba(255, 255, 255, 0) ;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
     color: #ea4c89;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: space-between;
+    
 }
 /*************Donate******************/
 .donate {
@@ -222,9 +215,6 @@ h2 {
     padding-top: 100px;
     height: 325px;
 }
-h3{
-    font-size: 40px;
-}
 .donat {
     display: flex;
     justify-content: center;
@@ -232,20 +222,27 @@ h3{
     flex-direction:column;
 }
 .btn_4 {
-   
+    
+    right: 490px;
+    margin-top: 40px;
     display: flex;
     width: 170px;
     height: 60px;
     justify-content:center;
 }
 .btn4{
-    width: 200px;
-    height: 70px;
+    width: 225px;
+    height: 60px;
     border: 3px solid white;
     background-color:rgba(255, 255, 255, 0) ;
     text-align: center;
     color: white;
     
+}
+.name_donat{
+    font-size: 40px;
+    margin-top: -120px;
+    color: #ffffff;
 }
 .contact{
     margin-top: 0 ;
@@ -261,16 +258,62 @@ h3{
     justify-content: space-evenly;
     align-items:center;
     width: 330px;
-    margin: 0 auto;
+    margin: 0 auto
     
 }
 .email{
-    border-radius: 10px;
-    height: 45px;
-    width: 210px;   
-    text-align: left;
-    border: 3px solid white;
+    border-radius: 5px;
+    
 }
+.newsletter_subscription{
+    display:inline-block;
+    padding:4em 0 0 0;
+}
+.newsletter_subscription h3{
+	float:left;
+	font-size:1em;
+	font-style:italic;
+	color:#676767;
+	padding:0 30px 0 0;
+}
+.search_box {
+	float:left;
+	background:#FFF;
+	position: relative;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	margin:0px auto;
+	padding:8px 0;
+	width:300px;
+}
+.search_box form input[type="text"] {
+	border: none;
+	outline: none;
+	background: none;
+	font-size:0.8em;
+	color:#D3D3D3;
+	width:80%;
+	padding:6px 0;
+    -webkit-appearance:none;
+    border-right: 1px solid #EEE;
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+}
+.search_box form input[type="text"]:focus{
+	color:#676767;
+}
+.search_box form input[type="submit"] {
+	border: none;
+	outline:none;
+	cursor: pointer;
+	background: url(../img/mail_2.jpeg) no-repeat;
+	margin-top:5px;
+	float: right;
+	width:24px;
+	margin-right:10px;
+}	
 footer{
     margin-top: 0 ;
     height: 100%;
@@ -280,8 +323,8 @@ footer{
 }
 .text_footer{
     display:flex;
+    align-items: center;
     align-content: center;
-    justify-content: center;
 }
 .contact-content{
 
